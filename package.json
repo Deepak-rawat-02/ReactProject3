@@ -1,0 +1,12 @@
+{
+  "name": "project-3-component-create",
+  "version": "1.0.0",
+  "scripts": {
+    "download-umd": "curl -L https://cdn.jsdelivr.net/npm/react/umd/react.development.js -o ./node_modules/react/react.development.js && curl -L https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.development.js -o ./node_modules/react-dom/react-dom.development.js"
+  },
+  "dependencies": {
+    "@babel/standalone": "^7.26.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
